@@ -1,0 +1,28 @@
+.icon-prop {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #59717d;
+}
+
+.icon-prop.light {
+  background-color: #e0e0e0;
+}
+.icon-prop.dark {
+  background-color: #222;
+}
+.icon-img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.icon-container {
+}

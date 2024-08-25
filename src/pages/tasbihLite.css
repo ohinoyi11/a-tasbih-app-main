@@ -1,0 +1,35 @@
+body {
+  background-color: #465a65;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container.dark {
+  background-color: #59717d;
+  color: #ffffff;
+}
+
+.tasbih-container {
+  border: 2px solid #daeaf1;
+  /* min-width: 400px; */
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #04161f;
+  height: 500px;
+  border-radius: 15px 15px 50px 50px;
+  width: 300px;
+}
+
+.tasbih-container.light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.tasbih-container.dark {
+  background-color: #082736;
+  color: #fff;
+}

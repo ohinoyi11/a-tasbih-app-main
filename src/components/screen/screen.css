@@ -1,0 +1,22 @@
+.screen {
+  background-color: #81a991;
+  width: 100px;
+  text-align: right;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.count {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.screen.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.screen.dark {
+  background-color: #333;
+  color: #fff;
+}
